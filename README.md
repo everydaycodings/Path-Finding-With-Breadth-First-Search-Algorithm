@@ -6,7 +6,7 @@ The breadth first search algorithm is a very famous algorithm that is used to tr
 
 In short the breadth first search algorithm creates a set of all possible routes and attempts each one until it finds the end node. It is a queue based algorithm. It is **extremely inefficient** and is not ideal for large data structures. Once the algorithm finds a path that reaches the end node it is guaranteed that this is the shortest possible path. This is because of the queue structure that the algorithm uses.<br>
 
-[](https://github.com/everydaycodings/Path-Finding-With-Breadth-First-Search-Algorithm/blob/master/E8gB.gif)<br>
+![](https://github.com/everydaycodings/Path-Finding-With-Breadth-First-Search-Algorithm/blob/master/E8gB.gif)<br>
 
 # Path Finding With Breadth First Search<br>
 
