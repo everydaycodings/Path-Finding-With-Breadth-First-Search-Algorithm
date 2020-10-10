@@ -11,3 +11,8 @@ In short the breadth first search algorithm creates a set of all possible routes
 # Path Finding With Breadth First Search<br>
 
 One of the common applications of breadth first search is to perform path finding. Typically this is done in a 2D maze. The code below implements the breadth first search algorithm to traverse and find the shortest path out of a maze.<br>
+
+# Instruction<br>
+1) ```$ pip3 install -r requirements.txt```<br>
+2) ```$ python3 main.py```<br>
+
