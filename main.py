@@ -1,7 +1,7 @@
 import queue
 
 
-def createMaze2():
+def createMaze3():
     maze = []
     maze.append(["#","#", "#", "#", "#", "O","#"])
     maze.append(["#"," ", " ", " ", "#", " ","#"])
@@ -13,7 +13,7 @@ def createMaze2():
 
     return maze
 
-def createMaze():
+def createMaze2():
     maze = []
     maze.append(["#","#", "#", "#", "#", "O", "#", "#", "#"])
     maze.append(["#"," ", " ", " ", " ", " ", " ", " ", "#"])
@@ -27,6 +27,19 @@ def createMaze():
 
     return maze
 
+def createMaze():
+    maze = []
+    maze.append(["#","#", "#", "#", "#", "O", "#", "#", "#"])
+    maze.append(["#"," ", " ", " ", " ", " ", " ", " ", "#"])
+    maze.append(["#","#", "#", "#", "#", "#", "#", " ", "#"])
+    maze.append(["#"," ", "#", " ", " ", " ", "#", " ", "#"])
+    maze.append(["#"," ", "#", " ", "#", " ", "#", " ", "#"])
+    maze.append(["#"," ", "#", " ", "#", "#", "#", "#", "#"])
+    maze.append(["#"," ", "#", " ", "#", " ", "#", "#", "#"])
+    maze.append(["#"," ", " ", " ", " ", " ", " ", " ", "#"])
+    maze.append(["#","#", "#", "#", "#", "#", "#", "X", "#"])
+
+    return maze
 
 def printMaze(maze, path=""):
     for x, pos in enumerate(maze[0]):
@@ -53,7 +66,7 @@ def printMaze(maze, path=""):
     for j, row in enumerate(maze):
         for i, col in enumerate(row):
             if (j, i) in pos:
-                print("+ ", end="")
+                print("| ", end="")
             else:
                 print(col + " ", end="")
         print()
