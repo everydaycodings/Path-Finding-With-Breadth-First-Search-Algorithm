@@ -1,7 +1,7 @@
 import queue
 
 
-def createMaze():
+def createMaze2():
     maze = []
     maze.append(["#","#", "#", "#", "#", "O","#"])
     maze.append(["#"," ", " ", " ", "#", " ","#"])
@@ -13,7 +13,7 @@ def createMaze():
 
     return maze
 
-def createMaze2():
+def createMaze():
     maze = []
     maze.append(["#","#", "#", "#", "#", "O", "#", "#", "#"])
     maze.append(["#"," ", " ", " ", " ", " ", " ", " ", "#"])
